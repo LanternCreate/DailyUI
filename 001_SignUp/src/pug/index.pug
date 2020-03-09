@@ -3,5 +3,34 @@ html(lang="ja")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-    body
+        title 001 Sign UP
+        link(rel="stylesheet", href="../css/index.css")
+    body.Background
+        .SignUp
+            .SignUp__inner
+                h1.Headline.Headline__h1
+                    img.Headline__logo(src='../images/logo.png')
+
+                section.SocialLogin
+                    h2.Headline.Headline__h2
+                        | 会員登録する
+                        a.Headline.Headline__h2--link(href="###") ログインする
+
+                    .SocialLogin__wrap
+                        a.SocialLogin__button.SocialLogin__button--google(href="###")
+                            | Googleでログイン
+                    .SocialLogin__wrap
+                        a.SocialLogin__button.SocialLogin__button--facebook(href="###")
+                            | Facebookでログイン
+
+                section.Register
+                    h2.Headline.Headline__h2
+                        | ほかの方法で登録する
+
+                    .Register__wrap
+                        form
+                            input.Register__input(type="text" value="" placeholder="山田 彩子")
+                            input.Register__input(type="text" value="" placeholder="メールアドレス")
+                            input.Register__input(type="text" value="" placeholder="パスワード")
+                            button.Register__button(type="submit") 会員登録
+

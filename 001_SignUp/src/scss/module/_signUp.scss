@@ -1,0 +1,23 @@
+.SignUp {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 64px 0;
+    background: #efefef;
+    align-items: center;
+    justify-content: center;
+
+    &__inner {
+        width: 100%;
+        max-width: 375px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .SignUp {
+        padding: 104px 0;
+    }
+}

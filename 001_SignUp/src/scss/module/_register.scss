@@ -1,0 +1,45 @@
+.Register {
+    margin-top: 64px;
+
+    &__wrap {
+        margin-top: 24px;
+    }
+
+    &__input {
+        display: flex;
+        width: 100%;
+        height: 44px;
+        padding: 0 12px;
+        border: solid 3px #efefef;
+        border-radius: 4px;
+        box-shadow:
+            -1px -1px 2px 0 rgba(255, 255, 255, 1),
+            1.5px 1.5px 1px 0 rgba(180, 180, 180, 1),
+            -1px -1px 2px 0 rgba(255, 255, 255, 1) inset,
+            1.5px 1.5px 1px 0 rgba(180, 180, 180, 1) inset;
+        align-items: center;
+
+        &::placeholder {
+            color: #929292;
+        }
+    }
+
+    &__input + &__input {
+        margin-top: 16px;
+    }
+
+    &__button {
+        display: flex;
+        width: 100%;
+        height: 56px;
+        margin-top: 40px;
+        border-radius: 4px;
+        background: #f4603f;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        box-shadow: 0 0 25px 0 rgba(244, 96, 63, 1);
+        align-items: center;
+        justify-content: center;
+    }
+}

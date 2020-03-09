@@ -1,0 +1,23 @@
+.Headline {
+    &__logo {
+        width: 100%;
+        height: auto;
+    }
+
+    &__h2 {
+        display: flex;
+        font-size: 20px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: space-between;
+
+        &--link {
+            color: #006d2c;
+            font-size: 16px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
